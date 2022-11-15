@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
   def show
-    @tasks = Tasks.all
+    @tasks = Task.all
   end
 end
